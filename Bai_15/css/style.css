@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.wrapper{
+    width: 400px;
+    height: 70px;
+    border: 1px solid blue;
+
+}
+input[type=text]{
+    width: 100px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+input[type=text]:focus{
+    width: 250px;
+    background-color: lightblue;
+}

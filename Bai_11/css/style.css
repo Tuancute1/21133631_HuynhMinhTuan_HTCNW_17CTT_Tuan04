@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.wrapper{
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    border: 1px solid;
+    position: relative;
+}
+.final{
+    position: fixed;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    background-color: green;
+    color: #fff;
+}

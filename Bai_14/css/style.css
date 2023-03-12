@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.wrapper{
+    width: 800px;
+    height: 520px;
+    border: 1px solid blue;
+    position: relative;
+}
+header{
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    top: 10px;
+    border: dotted red;
+    position: absolute;
+}
+.transition{
+    width: 300px;
+    height: 200px;
+    border: dotted red;
+    opacity: 0.8;
+    background: #6fac21;
+    transition: all 2s linear;
+    margin: 300px 200px;
+    text-align: justify;
+    border-bottom: dashed;
+    border-left: double;
+    border-right: dashed;
+    border-top: double;
+    border-color: red;
+}
+#transition{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 16px;
+    transition: all 2s;
+}
